@@ -20,7 +20,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 uv venv --python 3.12 venv
 . venv/bin/activate
 
-git clone https://github.com/pufferai/pufferlib --branch 4.0
+git clone https://github.com/OlivierKabengele/PufferLib --branch 4.0
 cd pufferlib
 
 CUDA_VER=$(nvcc --version 2>/dev/null | grep -oP 'release \K\d+\.\d+' | tr -d '.')
