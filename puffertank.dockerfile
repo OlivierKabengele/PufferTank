@@ -43,7 +43,7 @@ RUN . $HOME/.local/bin/env \
 
 # PufferLib + docs + 20k baseline experiments viewable with Constellation
 RUN --mount=type=cache,target=/root/.ccache . $HOME/.local/bin/env \
-    && git clone https://github.com/pufferai/pufferlib --branch 4.0 \
+    && git clone https://github.com/OlivierKabengele/pufferlib --branch 4.0 \
     && git clone https://github.com/pufferai/puffer.ai --branch 4.0 \
     && . venv/bin/activate \
     && cd pufferlib \
